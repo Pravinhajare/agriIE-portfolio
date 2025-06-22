@@ -29,7 +29,7 @@ import NotFound from "./pages/NotFound";
 // import exp from "constants";
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/agriIE-portfolio">
     <Routes>
       <Route path="/" element={<Index />} />
       <Route path="*" element={<NotFound />} />
